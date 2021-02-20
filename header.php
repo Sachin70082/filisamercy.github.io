@@ -147,7 +147,7 @@ if(isset($_POST['signup'])){
 
 
 <div class="header">
-		<div id="logo"><a href="index.php"><img src="../FinalyrProj/LOGO/Logo2.png"></a></div>
+		<div id="logo"><a href="index.php"><img src="../LOGO/Logo2.png"></a></div>
 		<div id="upper-header"></div><div id="upper-header2"></div>
 			<div id="call"><i class="fas fa-phone-alt"></i>&nbsp +91 7008-27-0513</div>
 			<div id="mail"><i class="far fa-envelope"></i>&nbsp sachinmohanty98610@gmail.com</div>

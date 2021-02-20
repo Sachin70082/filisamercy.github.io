@@ -123,25 +123,25 @@ ob_start();
 		<p id="head">Featured Picks on Filisamercy</p>
 		
 		<div id="adzz-box">
-			<div id="img-box"><img src="../FinalyrProj/LOGO/13.jpeg"></div>
+			<div id="img-box"><img src="../LOGO/13.jpeg"></div>
 			<h1>Bareburger Park Slope</h1>
 			<p id="info">Organic & All-Natural Burgers, Snacks, & Shakes.</p>
 			<p id="time">25-30min</p>
 		</div>
 		<div id="adzz-box">
-			<div id="img-box"><img src="..\FinalyrProj\Image Folder\daqnolh4.jpg"></div>
+			<div id="img-box"><img src="..\Image Folder\daqnolh4.jpg"></div>
 			<h1>Bareburger Park Slope</h1>
 			<p id="info">Organic & All-Natural Burgers, Snacks, & Shakes.</p>
 			<p id="time">25-30min</p>
 		</div>
 		<div id="adzz-box">
-			<div id="img-box"><img src="..\FinalyrProj\Image Folder\daqnolh4.jpg"></div>
+			<div id="img-box"><img src="..\Image Folder\daqnolh4.jpg"></div>
 			<h1>Bareburger Park Slope</h1>
 			<p id="info">Organic & All-Natural Burgers, Snacks, & Shakes.</p>
 			<p id="time">25-30min</p>
 		</div>
 		<div id="adzz-box">
-			<div id="img-box"><img src="..\FinalyrProj\Image Folder\daqnolh4.jpg"></div>
+			<div id="img-box"><img src="..\Image Folder\daqnolh4.jpg"></div>
 			<h1>Bareburger Park Slope</h1>
 			<p id="info">Organic & All-Natural Burgers, Snacks, & Shakes.</p>
 			<p id="time">25-30min</p>
@@ -152,8 +152,8 @@ ob_start();
 <div class="blank"></div>
 
 <div class="learn-more">
-	<div id="resto"><img src="..\FinalyrProj\LOGO\chef-hat.png"></div>
-	<div id="deliv"><img src="..\FinalyrProj\LOGO\delivery.png"></div>
+	<div id="resto"><img src="..\LOGO\chef-hat.png"></div>
+	<div id="deliv"><img src="..\LOGO\delivery.png"></div>
 	<div id="info-card">
 		<div id="restro-info"><p>Resturant? Connect with us.</p><div id="p2">
 			Increase your sales, reach new customers, and grow your corporate catering. There are no up-front costs and we handle all the logistics.
