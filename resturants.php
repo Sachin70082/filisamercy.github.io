@@ -82,10 +82,10 @@ echo "<style>
 		<div class="type-header"><h1>Categories</h1></div>
 			<div class="food-type-box">
 				<div class="img-container">
-					<img src="..\FinalyrProj\LOGO\assets\brkfst.png">
-					<img src="..\FinalyrProj\LOGO\assets\lunch.png">
-					<img src="..\FinalyrProj\LOGO\assets\dnr.png">
-					<img src="..\FinalyrProj\LOGO\assets\cafe.png">
+					<img src="..\LOGO\assets\brkfst.png">
+					<img src="..\LOGO\assets\lunch.png">
+					<img src="..\LOGO\assets\dnr.png">
+					<img src="..\LOGO\assets\cafe.png">
 				</div>
 				<ul>
 					<a href="#" id="brk"><li>Breakfast</li></a>
@@ -98,8 +98,8 @@ echo "<style>
 			<div class="type-header"><h1>Food Type</h1></div>
 			<div class="food-veg-nonveg-box">
 				<div class="img-container">
-					<img src="..\FinalyrProj\LOGO\assets\veg.png">
-					<img src="..\FinalyrProj\LOGO\assets\non-veg.png">
+					<img src="..\LOGO\assets\veg.png">
+					<img src="..\LOGO\assets\non-veg.png">
 					
 				</div>
 				<ul>
