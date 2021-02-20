@@ -1,0 +1,485 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: auto;
+    background-color: #FAFAFA;
+}
+.pac-container:after {
+
+    background-image: none !important;
+    height: 0px;
+}
+.header{
+	width: 100% auto;
+	height: 90px;
+	background-color: #BE1117;
+
+}
+.login-card form p{
+	color: red;
+	position: absolute;
+	font-family: segoe UI;
+	left: 38%;
+	margin-top: 20px;
+	display: block;
+}
+.crt-card form p{
+	color: red;
+	position: absolute;
+	font-family: segoe UI;
+	left: 38%;
+	margin-top: 20px;
+	display: block;
+}
+
+#logo{
+	position: absolute;
+	margin-top: 5px;
+	height: 70px;
+	width: 180px;
+	margin-left: 50px;
+	transition: 0.3s ease;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+#logo:hover{
+	transform: scale(1.1);
+}
+.header #upper-header{
+		
+	position: absolute;
+margin-right: 500px;
+	right: 0;
+	width: 30%;
+	height: 30px;
+	background: #1a1a1a;
+	transform: skewX(45deg);
+}
+
+.header #upper-header2{
+	
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 30px;
+	background: #1a1a1a;
+}
+.links button{
+	position: absolute;
+	background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 3px;
+  right: 0;
+  color: white;
+  padding: 6px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-size: 15px;
+  margin: 42px 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.links a{
+	position: absolute;
+	right: 0;
+	color: white;
+	text-decoration: none;
+	font-family: Segoe UI;
+	font-size: 15px;
+  margin: 50px 250px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.links button:hover{
+	color: #a6a6a6;
+	border: 1px solid #a6a6a6;
+}
+.links a:hover{
+color: #a6a6a6;
+}
+#call{
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	width: 300px;
+	margin: 5px 430px;
+	color: #fff;
+	font-family: Segoe UI;
+
+}
+#call i{
+  color: #FFB900;
+}
+
+#mail{
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	margin: 5px 300px;
+	color: #fff;
+	font-family: Segoe UI;
+
+}
+#mail i{
+  color: #FFB900;
+}
+#faq-list a{
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	text-decoration: none;
+	margin: 5px 200px;
+	color: #fff;
+	font-family: Segoe UI;
+
+}
+#faq-list i{
+  color: #FFB900;
+}
+.login-card{
+	position: absolute;
+	display: none;
+	width: 100% ;
+	height: 100% ;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	transition: all .5s ease-in-out;
+	z-index: 2;
+}
+#login-box{
+	width: 500px;
+	height: 400px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 4px;
+}
+
+#text-head{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #aaa;
+}
+#text-head p{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 16px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+#username{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 16px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+#username-box{
+	position: absolute;
+	margin: 60px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+#password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 140px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+#password-box{
+	position: absolute;
+	margin: 180px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+#close{
+	position: absolute;
+	right: 0;
+	margin: 5px 10px ;
+}
+#close i{
+	color: #222;
+	cursor: pointer;
+}
+
+.login-card input[type=submit]{
+	position: relative;
+	width: 462px;
+	height: 60px;
+	margin-top: 260px;
+	background: #BE1117;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 4px;
+	font-family: segoe UI;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.login-card input[type=submit]:hover{
+	background-color: #DB2026;
+}
+
+#username-box input[type=text]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	font-family: segoe UI;
+	border-style: none;
+}
+#username-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+#password-box input[type=password]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	border-style: none;
+}
+#password-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+#cart{
+	position: absolute;
+	right: 0;
+	margin: 44px 280px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	display: none;
+}
+.dropdown-profile{
+	display: none;
+	width: auto;
+	height: 32px;
+	position: absolute;
+	right: 0;
+	margin: 42px 70px;
+	cursor: pointer;
+	z-index: 10;
+}
+.dropdown-profile #dropdown-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid white;
+	margin-top: 0;
+	text-align: center;
+	border-radius: 4px;
+}
+.dropdown-profile #dropdown-box p{
+	display: inline-block;
+	font-family: segoe UI;
+	color: white;
+	margin: 6px;
+}
+.dropdown-profile #dropdown-box i{
+	color: white;
+	margin-right: 5px;
+}
+
+.toogle-list{
+
+	position: absolute;
+	right: 0;
+	width: 150px;
+	height: 228px;
+	background: #BE1117;
+	z-index: 2;
+	margin: 90px 68px;
+	 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+animation: toogle-list 0.8s;
+	  
+}
+
+.toogle-list a {
+  color: white;
+  padding: 8px 16px;
+  font-family: segoe UI;
+  text-decoration: none;
+  border-bottom: 1px solid #E44F54;
+  display: block;
+}
+.toogle-list a:hover{
+	background-color: #E44F54;
+}
+
+@keyframes toogle-list{
+	0%{opacity: 0;
+		top: -20px;}
+	100%{opacity: 1;
+		top: 0px;}
+}
+
+@media (max-width: 1030px){
+	#logo{
+	position: absolute;
+	height: 50px;
+	width: 130px;
+	margin-left: 5px;
+	margin-top: 18px;
+	
+	}
+	#upper-header{
+		display: none;
+	}
+	#upper-header2{
+		display: none;
+	}
+	.links button{
+		 margin: 30px 5px;
+		padding: 6px 4px;
+		font-size: 14px;
+	}
+	.links a{
+		font-size: 14px;
+		margin: 37px 150px;
+	}
+	#call{
+		display: none;
+
+	}
+	#mail{
+		display: none;
+	}
+	#faq-list{
+		display: none;
+	}
+	.login-card{
+	position: absolute;
+
+	width: 100% auto;
+	height: 100% ;
+	}
+	#login-box{
+	width: 88%;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	}
+
+	#text-head{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #aaa;
+	}
+	#username-box{
+	position: absolute;
+	margin: 60px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+	}
+	#password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 140px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+	}
+	#password-box{
+	position: absolute;
+	margin: 180px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+	}
+
+	.login-card input[type=submit]{
+	position: relative;
+	width: 88%;
+	height: 60px;
+	
+	}
+	#username-box input[type=text]{
+	width: 72%;
+	}
+	#password-box input[type=password]{
+	width: 72%;
+	}
+	#cart{
+		position: absolute;
+		margin: 30px 200px;
+	}
+
+	.dropdown-profile{
+		display: none;
+	width: auto;
+	height: 32px;
+	position: absolute;
+	right: 0;
+	margin: 30px 20px;
+}
+.dropdown-profile #dropdown-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid white;
+	margin-top: 0;
+	text-align: center;
+	border-radius: 4px;
+}
+.dropdown-profile #dropdown-box p{
+	font-size: 14px;
+	display: inline-block;
+}
+
+.login-card form p{
+	position: absolute;
+	left: 20px;
+	margin-top: 2px;
+}
+.crt-card form p{
+	position: absolute;
+	left: 20px;
+	margin-top: 2px;
+}
+
+}

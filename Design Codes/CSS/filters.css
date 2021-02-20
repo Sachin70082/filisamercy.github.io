@@ -1,0 +1,98 @@
+.food-type-box{
+	width:100%;
+	height: 200px;
+	right: 0;
+	
+}
+.food-type-box .img-container{
+	width: 30px;
+	position: absolute;
+	margin-left: 10px;
+}
+.food-type-box ul{
+	list-style: none;
+	text-decoration: none;
+	padding: 0px 50px;
+}
+.filter-body li{
+	padding: 10px 0px;
+}
+.filter-body .img-container img{
+	display: inline-block;
+	width: 25px;
+	height: auto;
+	padding: 8px 0px;
+}
+.filter-body ul a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #1a1a1a;
+	font-family: segoe UI;
+}
+.food-veg-nonveg-box{
+	width: 100%;
+	height: 100px;
+}
+.food-veg-nonveg-box ul{
+	list-style: none;
+	text-decoration: none;
+	padding: 0px 50px;
+}
+.food-veg-nonveg-box ul a{
+	text-decoration: none;
+	color: #1a1a1a;
+	font-family: segoe UI;
+}
+.food-veg-nonveg-box .img-container{
+	width: 30px;
+	position: absolute;
+	margin-left: 10px;
+}
+.price-slider{
+	width: 100%;
+position: absolute;
+height: 200px;
+overflow-y: hidden;
+
+}
+.price-slider .header{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	top: 0;
+	position: absolute;
+	text-align: left;
+}
+.filter-body .type-header h1{
+	font-family: segoe UI;
+	color: #2D3C48;
+	font-size: 18px;
+	margin-left: 12px;
+}
+.slide {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+#out{
+	margin-left: 30px;
+	margin-top: 0;
+	font-family: segoe UI;
+	font-weight: bold;
+	color: #F15756;
+}
+#range-bar{
+	width: 80%;
+	outline: none;
+	cursor: pointer;
+background: #fff;
+margin-left: 30px;
+}
+@media (max-width: 500px){
+
+}

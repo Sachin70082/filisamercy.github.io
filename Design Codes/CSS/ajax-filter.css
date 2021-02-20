@@ -1,0 +1,211 @@
+.locate-area{
+	background: #F3F3F3;
+	width: 100%;
+
+}
+.locate-area h1{
+	color: #2D3C48;
+	font-family: segoe UI;
+	font-size: 22px;
+	padding-left: 70px;
+}
+.body-part{
+	background: #f3f3f3;
+	min-height: 1000px;
+	padding: 0px 70px;
+}
+.filter-body{
+	min-height: 1000px;
+	background: #fff;
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	overflow-y: hidde;
+}
+.restro-list{
+	width: 72%;
+	min-height: 99%;
+	display: inline-block;
+	margin-left: 30px;
+	float: right;
+	padding: 0;
+}
+
+.restro-list #r-list{
+	display: inline-block;
+	width : 44%;
+	height: 200px;
+	background: #fff;
+	top: 0;
+	margin: 0px 20px;
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+
+}
+.restro-list #r-list #img-box-1{
+	width: 100%;
+	height: 158px;
+	border-bottom: 1px solid #ddd;
+}
+.restro-list #r-list #img-box-1 #img-box-container{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: #000;
+	margin: 10px;
+	overflow: hidden;
+}
+.restro-list #r-list #img-box-1 #img-box-container img{
+	height: 100%;
+	width: auto;
+	margin-left: -20px;
+}
+.restro-list #r-list #img-box-1 h1{
+	width: 250px;
+	height: 55px;
+	font-family: segoe UI;
+	font-size: 20px;
+	color: #1A7E3E;
+	margin: 0px 120px;
+	padding: 4px 0px;
+	overflow-y: hidden;
+}
+.restro-list #r-list #img-box-1 p{
+	width: 250px;
+	font-family: segoe UI;
+	font-size: 15px;
+	color: #2D3C48;
+	margin: 0px 120px;
+	padding: 4px 0px;
+	height: 20px;
+	overflow-y: hidden;
+}
+.restro-list #r-list #img-box-1 #idp2{
+	color: #909090;
+	font-size: 14px;
+	position: absolute;
+}
+.restro-list #r-list #order-btn{
+	width: 100%;
+	background: #fff;
+	height: 40px;
+	position: relative;
+	bottom: 0px;
+}
+.restro-list #r-list #order-btn button{
+	background: #1A7E3E;
+	border-style: none;
+	color: white;
+	font-family: segoe UI;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	font-size: 15px;
+	padding: 5px 5px;
+	transform: translateY(-50%);
+	margin-right: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: .3s ease;
+}
+.restro-list #r-list #order-btn button:hover{
+	background: #3DB167;
+}
+.next-prev-box{
+	position: absolute;
+	margin-top: 950px;
+	left: 62%;
+	transform: translateX(-50%);
+	height: 100px;
+}
+.next-prev-box a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  font-family: segoe UI;
+}
+
+.next-prev-box a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.next-prev-box .previous {
+  background-color: #166B35;
+  color: white;
+}
+
+.next-prev-box .next {
+  background-color: #166B35;
+  color: white;
+}
+
+.next-prev-box .round {
+  border-radius: 50%;
+}
+
+
+@media (max-width: 500px){
+	.locate-area h1{
+	font-size: 16px;
+	padding-left: 20px;
+	width: 80%;
+	}
+
+	.body-part{
+		background-color: #F3F3F3;
+		padding: 0px 0px;
+
+		height: 1850px;
+	}
+
+	.filter-body{
+		height: 560px;
+	width: 94%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+	z-index: 1;
+
+	}
+	.restro-list{
+		position: absolute;
+	width: 90%;
+	height: 100% ;
+	padding: 0;
+	margin: 0px 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	display:block;
+
+	}
+	.restro-list #r-list{
+		width: 100%;
+		margin: 0px 0px;
+		margin-bottom: 20px;
+
+
+	}
+
+	.restro-list #r-list #img-box-1 h1{
+		height: 50px;
+	width: 60%;
+	padding-right: 0px;
+	}
+	.restro-list #r-list #img-box-1 p{
+		width: 60%;
+	}
+	.next-prev-box{
+	position: absolute;
+	margin-bottom: -1240px;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	height: 100px;
+	}
+
+}

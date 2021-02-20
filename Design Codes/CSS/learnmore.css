@@ -1,0 +1,131 @@
+.learn-more{
+	width: 100%;
+	height: 350px;
+	background: #fafafa;
+	text-align: center;
+	display: inline-block;
+	padding: 50px 0px;
+}
+.learn-more #resto{
+	position: relative;
+	width: 300px;
+	height: 50%;
+
+	display: inline-block;
+	margin-right: 300px;
+}
+.learn-more #deliv{
+	width: 300px;
+	height: 50%;
+
+	display: inline-block;
+}
+.learn-more #resto img{
+
+	width: auto;
+	height: 150px;
+}
+.learn-more #deliv img{
+
+	width: auto;
+	height: 150px;
+}
+.learn-more #info-card{
+	width: 100%;
+	height: 190px;
+	top: 0;
+	margin-top: 20px;
+
+
+}
+.learn-more #restro-info{
+
+	width: 500px;
+	height: 150px;
+	display: inline-block;
+	margin-right: 100px;
+
+}
+.learn-more #deliv-info{
+	width: 500px;
+	height: 150px;
+	display: inline-block;
+
+}
+.learn-more #restro-info p{
+	font-family: segoe UI;
+	font-size: 30px;
+	color: #2D3C48;
+}
+.learn-more #restro-info #p2{
+	font-family: segoe UI;
+	font-size: 20px;
+	color: #2D3C48;
+}
+.learn-more #deliv-info p{
+	font-family: segoe UI;
+	font-size: 30px;
+	color: #2D3C48;
+}
+.learn-more #deliv-info #p3{
+	font-family: segoe UI;
+	font-size: 20px;
+	color: #2D3C48;
+}
+.learn-more #info-card a{
+	text-decoration: none;
+	color: #EF4808;
+	font-family: segoe UI;
+}
+@media (max-width: 600px){
+
+	.learn-more #resto{
+		margin-right: 0px;
+		
+	}
+	.learn-more #deliv{
+		width: 200px;
+		
+	}
+	.learn-more #resto img{
+		
+
+	}
+	.learn-more #deliv img{
+		margin-top: 20px;
+	}
+	.learn-more #info-card{
+	width: 100% auto;
+	top: 100%;
+	text-align: center;
+
+	}
+	.learn-more #restro-info{
+		margin-right: 0px;
+		width: 250px;
+	}
+	.learn-more #deliv-info{
+		margin-right: 0px;
+		width: 250px;
+	}
+
+	.learn-more #restro-info p{
+	font-size: 20px;
+}
+.learn-more #restro-info #p2{
+	font-size: 15px;
+}
+.learn-more #deliv-info p{
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+.learn-more #deliv-info #p3{
+	font-size: 15px;
+
+}
+
+
+
+
+}

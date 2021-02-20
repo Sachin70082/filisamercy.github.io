@@ -1,0 +1,402 @@
+.crt-card{
+	position: absolute;
+display: none;
+	width: 100% ;
+	height: 100% ;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	transition: all .5s ease-in-out;
+	z-index: 1;
+}
+#crt-box{
+	width: 500px;
+	height: 620px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 4px;
+}
+.success-card{
+	position: absolute;
+display: none;
+	width: 100% ;
+	height: 100% ;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	transition: all .5s ease-in-out;
+	z-index: 1;
+}
+#success-box{
+	width: 400px;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 4px;
+}
+.fa-check-circle{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-top: 15px;
+	font-size: 70px;
+	transform: translateX(-50%);
+	color: #48B02C;
+}
+#success-box h1{
+	font-family: segoe UI;
+	color: #2a2a2a;
+	margin-top: 90px;
+}
+#success-box button{
+	background: #188AE8;
+	border-style: none;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 14px;
+	font-family: segoe UI;
+	color: white;
+	font-weight: bold;
+	transition: .3s;
+}
+#success-box button:hover{
+	background: #1671BB;
+}
+#text-head{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #aaa;
+}
+#text-head p{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 16px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+.crt-card form #f-name{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 16px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+
+.crt-card form #name-box{
+	position: absolute;
+	margin: 60px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+.crt-card form #name-box input[type=text]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	font-family: segoe UI;
+	border-style: none;
+}
+.crt-card form #username{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 140px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+.crt-card form #username-box{
+	position: absolute;
+	margin: 180px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+.crt-card form #password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 260px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+.crt-card form #password-box{
+	position: absolute;
+	margin: 300px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+.crt-card form #v-password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 380px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+.crt-card form #vpassword-box{
+	position: absolute;
+	margin: 420px 20px;
+	width: 92%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+#close{
+	position: absolute;
+	right: 0;
+	margin: 5px 10px ;
+}
+#close i{
+	color: #222;
+	cursor: pointer;
+}
+
+.crt-card form input[type=submit]{
+	position: relative;
+	width: 462px;
+	height: 60px;
+	margin-top: 490px;
+	background: #BE1117;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 4px;
+	font-family: segoe UI;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.crt-card form input[type=submit]:hover{
+	background-color: #DB2026;
+}
+
+.crt-card form #username-box input[type=text]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	font-family: segoe UI;
+	border-style: none;
+}
+
+.crt-card form #password-box input[type=password]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	border-style: none;
+}
+.crt-card form #vpassword-box input[type=password]{
+	position: absolute;
+	left: 0;
+	margin: 5px 70px;
+	width: 380px;
+	height: 42px;
+	font-size: 20px;
+	border-style: none;
+}
+.crt-card form #name-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+.crt-card form #username-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+.crt-card form #password-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+.crt-card form #vpassword-box i{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	left: 0;
+	top: 14px;
+	text-align: center;
+	font-size: 30px;
+	color: #1a9fff;
+}
+@media (max-width: 530px){
+
+
+	.crt-card{
+	position: absolute;
+
+	width: 100% auto;
+	height: 100% ;
+	}
+	#crt-box{
+	width: 88%;
+	height: 620px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	}
+	.success-card{
+	position: absolute;
+
+	width: 100% auto;
+	height: 100% ;
+	}
+	
+
+
+	#text-head{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #aaa;
+	}
+	.crt-card form #f-name{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 16px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+
+.crt-card form #name-box{
+	position: absolute;
+	margin: 60px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+}
+	.crt-card form #username-box{
+	position: absolute;
+	margin: 180px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+	}
+	.crt-card form #password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 260px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+	}
+	.crt-card form #password-box{
+	position: absolute;
+	margin: 300px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+	}
+	.crt-card form #v-password{
+	position: absolute;
+	font-family: segoe UI;
+	margin: 380px 20px;
+	font-size: 20px;
+	color: #1a1a1a;
+	}
+	.crt-card form #vpassword-box{
+	position: absolute;
+	margin: 420px 20px;
+	width: 88%;
+	height: 60px;
+	border: 1px solid #55B7FF;
+	border-radius: 4px;
+
+	}
+
+	.crt-card form input[type=submit]{
+	position: relative;
+	width: 88%;
+	height: 60px;
+	
+	}
+	.crt-card form #name-box input[type=text]{
+	width: 72%;
+	}
+	.crt-card form #username-box input[type=text]{
+	width: 72%;
+	}
+	.crt-card form #password-box input[type=password]{
+	width: 72%;
+	}
+	.crt-card form #vpassword-box input[type=password]{
+	width: 72%;
+	}
+	#success-box{
+	width: 88%;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	}
+	.fa-check-circle{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-top: 15px;
+	font-size: 50px;
+	transform: translateX(-50%);
+	color: #48B02C;
+	}
+	#success-box h1{
+	font-family: segoe UI;
+	color: #2a2a2a;
+	margin-top: 70px;
+	font-size: 20px;
+	}
+	#success-box button{
+	background: #188AE8;
+	border-style: none;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 14px;
+	font-family: segoe UI;
+	color: white;
+	font-weight: bold;
+	transition: .3s;
+	}
+
+}
