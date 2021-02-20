@@ -194,7 +194,7 @@ ob_start();
 			</div>
 		</div>
 		<div id="lower-foot">
-			<img src="../FinalyrProj/LOGO/Logo2.png">
+			<img src="../LOGO/Logo2.png">
 		</div>
 		
 		<div id="for-rest"></div>
