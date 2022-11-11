@@ -1,13 +1,15 @@
 <?php
 
 $servername = "sql12.freemysqlhosting.net:3306";
+
 /*$username = "root";
 $password = "";*/
-$dbname = "sql12394197";
+
+$dbname = "sql12560441";
 
 
-$username = "sql12394197";
-$password = "SC7pcytcBy";
+$username = "sql12560441";
+$password = "m4LPAcQb4h";
 
 
 
